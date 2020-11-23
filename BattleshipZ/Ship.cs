@@ -14,11 +14,11 @@ namespace BattleshipZ
         //Constructor
         public Ship()
         {
-
         }
 
         //Member Method
-        //assign ships locations on the board
+        //This takes in three variables to assign ships locations on the board, if the piece 
+        //is vertical, and its x and y position.
         public void PlaceShip(bool isVertical, char startingLetter, int startingNumber)
         {
             char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
@@ -44,6 +44,5 @@ namespace BattleshipZ
                 }
             }
         }
-
     }
 }
